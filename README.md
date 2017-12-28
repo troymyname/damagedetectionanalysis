@@ -1,6 +1,6 @@
 # DamageDetectionAnalysis
 
-For my Thesis project, I worked on the problem of damage detection (or quantification) on any given infrastruce surface. I also attempted damage analysis (for identification of the type of damage). I developed the entire Python code in a Linux environment.
+For my thesis project uploaded in [ResearchGate](https://www.researchgate.net/publication/317672638_Algorithm_Development_for_Real-Time_Infrastructure_Damage_Detection_and_Analysis), I worked on the problem of damage detection (or quantification) on any given infrastruce surface. I also attempted damage analysis (for identification of the type of damage). I developed the entire Python code in a Linux environment.
 
 STEPS:
 1. Use alpha.py to read train images from a local directory and calculate features, perform PCA, and store the data in a local directory.
