@@ -10,7 +10,9 @@ STEPS:
 
 3. Use OpenDroneMap toolkit to generate point cloud and mesh models from multiple overlapping image sets. This process generates .ply files.
 4. Use gamma.py to read the .ply files to calculate curvature and luminance properties, and finally use the properties to classify the type of damage. CAUTION: This section needs improvement.
+5. Use MeshLab to display .ply data.
 
+![](https://github.com/troymyname/damagedetectionanalysis/blob/master/images/sample2.jpg)
 
 PRE-REQUISITES:
 - Python 2.7X
@@ -23,6 +25,6 @@ PRE-REQUISITES:
 --- plyfile
 --- sklearn
 - OpenDroneMap Toolkit from GitHub // [LINK](https://github.com/OpenDroneMap/OpenDroneMap/blob/master/README.md)
-- MeshLab (to read/display .ply files)
+- MeshLab (to read/display .ply files) // [LINK](http://www.meshlab.net/)
 
 If you require the raw data that I used for my thesis project, please create an issue.
