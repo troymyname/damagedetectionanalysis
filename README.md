@@ -11,13 +11,13 @@ STEPS:
 
 PRE-REQUISITES:
 - Python 2.7X
---- numpy
---- cv2
---- matplotlib
---- pandas
---- seaborn
---- PIL
---- plyfile
---- sklearn
+# --- numpy
+# --- cv2
+# --- matplotlib
+# --- pandas
+# --- seaborn
+# --- PIL
+# --- plyfile
+# --- sklearn
 - OpenDroneMap Toolkit from GitHub
 - MeshLab (to read/display .ply files)
