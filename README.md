@@ -7,3 +7,17 @@ STEPS:
 2. Use beta.py to read the stored data from Step 1 and then, calulate train weight vectors, train a One-Class SVM (OCSVM) classifier, use the trained OCSVM to classify test image blocks for match/mismtach, and finally quantify damage.
 3. Use OpenDroneMap toolkit to generate point cloud and mesh models from multiple overlapping image sets. This process generates .ply files.
 4. Use gamma.py to read the .ply files to calculate curvature and luminance properties, and finally use the properties to classify the type of damage. CAUTION: This section needs improvement.
+
+
+PRE-REQUISITES:
+- Python 2.7X
+--- numpy
+--- cv2
+--- matplotlib
+--- pandas
+--- seaborn
+--- PIL
+--- plyfile
+--- sklearn
+- OpenDroneMap Toolkit from GitHub
+- MeshLab (to read/display .ply files)
