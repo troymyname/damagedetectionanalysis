@@ -2,6 +2,8 @@
 
 For my Thesis project, I worked on the problem of damage detection (or quantification) on any given infrastruce surface. I also attempted damage analysis (for identification of the type of damage). I developed the entire Python code in a Linux environment.
 
+![](https://raw.githubusercontent.com/damagedetectionanalysis/images/sample.jpg)
+
 STEPS:
 1. Use alpha.py to read train images from a local directory and calculate features, perform PCA, and store the data in a local directory.
 2. Use beta.py to read the stored data from Step 1 and then, calulate train weight vectors, train a One-Class SVM (OCSVM) classifier, use the trained OCSVM to classify test image blocks for match/mismtach, and finally quantify damage.
