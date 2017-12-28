@@ -21,3 +21,5 @@ PRE-REQUISITES:
 --- sklearn
 - OpenDroneMap Toolkit from GitHub
 - MeshLab (to read/display .ply files)
+
+If you require the raw data that I used for my thesis project, please create an issue.
